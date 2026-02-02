@@ -1,0 +1,18 @@
+/* variable whole page */
+:root{
+       /* for background color body */
+       --bd-bkgrd-clr: rgba(255, 242, 1, 0.726);
+}
+/* style for everything */
+*{
+       margin: 0;
+       padding: 0;
+}
+/* style for body */
+body{
+       background-color: var(--bd-bkgrd-clr);
+}
+/* style for html for scroll */
+html {
+  scroll-behavior: smooth;
+}
